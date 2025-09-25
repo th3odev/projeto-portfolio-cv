@@ -1,0 +1,8 @@
+  .header a {
+    border-bottom: 4px solid #fff;
+    transition: 0.6s;
+  }
+
+  .header a:hover {
+    border-bottom: 4px solid #E96002;
+  }

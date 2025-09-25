@@ -1,0 +1,52 @@
+/* resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* listas */
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* imagens sejam responsivas */
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
